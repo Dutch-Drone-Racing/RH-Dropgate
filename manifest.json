@@ -1,0 +1,13 @@
+{
+    "name": "FPVScores Dropgate",
+    "author": "FPVScores",
+    "author_uri": "https://fpvscores.com",
+    "description": "Rotorhazard plugin to add functionality for an automatic dropgate.",
+    "info_uri": "https://github.com/FPVScores/RH-Plugin-Dropgate/",
+    "license": "FPVScores",
+    "license_uri": "https://github.com/RotorHazard/RotorHazard/blob/main/LICENSE",
+    "version": "0.1",
+    "required_rhapi_version": "1.0",
+    "update_uri": null,
+    "text_domain": null
+}
