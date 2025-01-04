@@ -13,7 +13,7 @@ class Dropgate():
     def init_plugin(self,args):
         ui = self._rhapi.ui
         ui.register_panel("fpvscores_dropgate", "FPVScores Dropgate", "settings")
-        ui_dropgate_gpio = UIField(name = 'fpvscores_dropgate_gpio', label = 'Dropgate GPIO', field_type = UIFieldType.TEXT, desc = "Set the GPIO pin number for the dropgate", value = "17")
+        ui_dropgate_gpio = UIField(name = 'fpvscores_dropgate_gpio', label = 'Dropgate GPIO', field_type = UIFieldType.BASIC_INT, desc = "Set the GPIO pin number for the dropgate", value = "12")
         fields = self._rhapi.fields
         fields.register_option(ui_dropgate_gpio, "fpvscores_dropgate")
         self.logger.info("Dropgate is ready")
